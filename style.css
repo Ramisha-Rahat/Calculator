@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2F2F2;
+}
+.container {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9EDF7;
+    border-radius: 20px;
+    border: none;
+    margin-left: 500px;
+}
+h2 {
+    text-align: center;
+}
+.calculator {
+    background-color: #FFE0B2;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.display input {
+    border: 3px solid #FFE0B2;
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+    background-color: #C8E6C9;
+    text-align: right;
+    color: black;
+    font-size: 1.3rem;
+}
+.btns {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    gap: 2px;
+}
+.btns input {
+    height: 45px;
+    width: 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 2px 1px 2px 1px #FFE0B2 ;
+    cursor: pointer;
+}
+#equalbtn {
+    width: 100px;
+}
+
+
+@media only screen and (min-width:800px) and (max-width:1224px){
+    .container{
+        width: 400px;
+        height: 500px;
+        margin-left: 0px;
+   }
+}
+@media only screen and (min-width:600px) and (max-width:799px){
+    .container{
+        width: 400px;
+        height: 500px;
+        margin-left: 0px;
+   }
+}
+@media only screen and (min-width:400px) and (max-width:599px){
+    .container{
+        width: 400px;
+        height: 500px;
+        margin-left: 0px;
+   }
+}
+@media only screen and (min-width:100px) and (max-width:399px){
+    .container{
+        width: 400px;
+        height: 500px;
+        margin-left: 0px;
+   }
+}
